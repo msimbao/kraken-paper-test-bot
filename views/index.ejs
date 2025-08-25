@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kraken Real-Time Bot</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<h1>Kraken Paper Trading Bot (Real-Time)</h1>
+<p>USD: <span id="usd">0</span> | BTC: <span id="btc">0</span></p>
+<p>Last Signal: <span id="signal">NONE</span> | Bot Status: <span id="status">Stopped</span></p>
+
+<form id="sizeForm" method="post" action="/set-size">
+    Trade Size %: <input type="number" name="size" min="1" max="100" id="tradeSize">
+    <button type="submit">Set</button>
+</form>
+
+<a href="/start">Start Bot</a> | <a href="/stop">Stop Bot</a>
+
+<h2>Price Chart + EMA</h2>
+<canvas id="chart" width="800" height="400"></canvas>
+<h2>RSI</h2>
+<canvas id="rsiChart" width="800" height="200"></canvas>
+
+<h3>Last 10 Trades:</h3>
+<ul id="trades"></ul>
+
+<script>
+const socket = io();
+let chart, rsiChart;
+
+socket.on('update', data => {
+    document.getElementById('usd').innerText = data.usd;
+    document.getElementById('btc').innerText = data.btc;
+    document.getElementById('signal').innerText = data.signal;
+    document.getElementById('status').innerText = data.running ? "Running" : "Stopped";
+    document.getElementById('tradeSize').value = data.tradeSizePercent;
+
+    const labels = data.data.map((_,i)=>i);
+
+    // Update price chart
+    if(chart) chart.destroy();
+    const ctx = document.getElementById('chart').getContext('2d');
+    chart = new Chart(ctx, {
+        type:'line',
+        data:{
+            labels,
+            datasets:[
+                {label:'Close', data:data.data, borderColor:'blue', fill:false},
+                {label:'EMA9', data:data.ema9, borderColor:'red', fill:false},
+                {label:'EMA21', data:data.ema21, borderColor:'green', fill:false}
+            ]
+        }
+    });
+
+    // Update RSI chart
+    if(rsiChart) rsiChart.destroy();
+    const ctx2 = document.getElementById('rsiChart').getContext('2d');
+    rsiChart = new Chart(ctx2, {
+        type:'line',
+        data:{ labels, datasets:[{label:'RSI', data:data.rsi, borderColor:'purple', fill:false}] },
+        options:{ scales:{ y:{ min:0, max:100 } } }
+    });
+
+    // Update trade log
+    const ul = document.getElementById('trades');
+    ul.innerHTML = '';
+    data.trades.forEach(t=>{
+        const li = document.createElement('li'); li.innerText = t;
+        ul.appendChild(li);
+    });
+});
+</script>
+</body>
+</html>
