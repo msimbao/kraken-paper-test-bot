@@ -1,0 +1,287 @@
+{
+  "startBal": 10000,
+  "leverage": 1,
+  "pairs": {
+    "BTC/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "ETH/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "SOL/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "ADA/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "XRP/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "DOT/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "AVAX/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "LINK/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "MATIC/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    },
+    "LTC/USD": {
+      "balances": {
+        "USD": 10000
+      },
+      "strategies": {
+        "EMA-ADX-ATR": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "BBands-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Donchian": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "MACD-RSI": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        },
+        "Supertrend-HA": {
+          "balanceUSD": 10000,
+          "pnlPct": 0
+        }
+      },
+      "history": []
+    }
+  },
+  "tradeLog": []
+}

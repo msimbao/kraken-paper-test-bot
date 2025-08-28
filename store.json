@@ -1,0 +1,513 @@
+{
+  "balances": {
+    "BTC/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ETH/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "BNB/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "SOL/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "XRP/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ADA/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "DOT/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "AVAX/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "LINK/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "LTC/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "BCH/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "MATIC/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "TRX/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ETC/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "XLM/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ATOM/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "FIL/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "NEAR/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "APT/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "SUI/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "AAVE/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "UNI/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "EOS/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "FTM/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "VET/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ICP/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "RUNE/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "ZEC/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "CRV/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    },
+    "KSM/USD": {
+      "initialUSD": 1000,
+      "USD": 1000,
+      "ASSET": 0
+    }
+  },
+  "trade_log": [],
+  "price_history": {
+    "BTC/USD": [
+      113199.9,
+      113199.9,
+      113199.9,
+      113199.9,
+      113199.9,
+      113199.9,
+      113199.9
+    ],
+    "ETH/USD": [
+      4584.21,
+      4584.21,
+      4584.21,
+      4584.21,
+      4584.21,
+      4584.21,
+      4584.21
+    ],
+    "BNB/USD": [],
+    "SOL/USD": [],
+    "XRP/USD": [],
+    "ADA/USD": [],
+    "DOT/USD": [],
+    "AVAX/USD": [],
+    "LINK/USD": [],
+    "LTC/USD": [],
+    "BCH/USD": [],
+    "MATIC/USD": [],
+    "TRX/USD": [],
+    "ETC/USD": [],
+    "XLM/USD": [],
+    "ATOM/USD": [],
+    "FIL/USD": [],
+    "NEAR/USD": [],
+    "APT/USD": [],
+    "SUI/USD": [
+      3.4971,
+      3.4971,
+      3.4971,
+      3.4971,
+      3.4971,
+      3.4971,
+      3.4971
+    ],
+    "AAVE/USD": [],
+    "UNI/USD": [],
+    "EOS/USD": [],
+    "FTM/USD": [],
+    "VET/USD": [],
+    "ICP/USD": [],
+    "RUNE/USD": [
+      1.26,
+      1.26,
+      1.26,
+      1.26,
+      1.26,
+      1.26,
+      1.26
+    ],
+    "ZEC/USD": [],
+    "CRV/USD": [],
+    "KSM/USD": []
+  },
+  "bots": {
+    "BTC/USD__EMA_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:11:57.345Z"
+    },
+    "BTC/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:11:58.242Z"
+    },
+    "BTC/USD__MACD_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:11:59.310Z"
+    },
+    "BTC/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:00.929Z"
+    },
+    "BTC/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:01.804Z"
+    },
+    "BTC/USD__GRID_TRADING": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:03.077Z"
+    },
+    "BTC/USD__VWAP_PULLBACK": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:04.418Z"
+    },
+    "ETH/USD__EMA_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:05.741Z"
+    },
+    "ETH/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:06.786Z"
+    },
+    "ETH/USD__MACD_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:07.831Z"
+    },
+    "ETH/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:09.265Z"
+    },
+    "ETH/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:10.125Z"
+    },
+    "ETH/USD__GRID_TRADING": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:11.367Z"
+    },
+    "ETH/USD__VWAP_PULLBACK": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:13.025Z"
+    },
+    "BNB/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.676Z",
+      "state": {}
+    },
+    "BNB/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.676Z",
+      "state": {}
+    },
+    "BNB/USD__MACD_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.676Z",
+      "state": {}
+    },
+    "BNB/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "BNB/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "BNB/USD__GRID_TRADING": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "BNB/USD__VWAP_PULLBACK": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__MACD_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__GRID_TRADING": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "SOL/USD__VWAP_PULLBACK": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.677Z",
+      "state": {}
+    },
+    "XRP/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__MACD_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__GRID_TRADING": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "XRP/USD__VWAP_PULLBACK": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "ADA/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "ADA/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "ADA/USD__MACD_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.678Z",
+      "state": {}
+    },
+    "ADA/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "ADA/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "ADA/USD__GRID_TRADING": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "ADA/USD__VWAP_PULLBACK": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__MACD_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__GRID_TRADING": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.679Z",
+      "state": {}
+    },
+    "DOT/USD__VWAP_PULLBACK": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.680Z",
+      "state": {}
+    },
+    "AVAX/USD__EMA_CROSS": {
+      "running": true,
+      "started": "2025-08-28T07:10:10.680Z",
+      "state": {}
+    },
+    "SUI/USD__EMA_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:14.131Z"
+    },
+    "SUI/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:14.930Z"
+    },
+    "SUI/USD__MACD_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:16.488Z"
+    },
+    "SUI/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:17.315Z"
+    },
+    "SUI/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:18.519Z"
+    },
+    "SUI/USD__GRID_TRADING": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:20.035Z"
+    },
+    "SUI/USD__VWAP_PULLBACK": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:20.917Z"
+    },
+    "RUNE/USD__EMA_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:22.534Z"
+    },
+    "RUNE/USD__RSI_MEAN_REVERT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:23.296Z"
+    },
+    "RUNE/USD__MACD_CROSS": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:24.502Z"
+    },
+    "RUNE/USD__BOLLINGER_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:26.118Z"
+    },
+    "RUNE/USD__MOMENTUM_BREAKOUT": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:27.037Z"
+    },
+    "RUNE/USD__GRID_TRADING": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:28.268Z"
+    },
+    "RUNE/USD__VWAP_PULLBACK": {
+      "running": true,
+      "lastTick": "2025-08-28T07:12:29.726Z"
+    }
+  }
+}
